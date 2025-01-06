@@ -521,7 +521,7 @@ namespace s1finalexam
         public static void DisplayBooks(Book[] _books)
         {
             Console.WriteLine("Id\tTitle\tAuthor\tYear\tRentalFee\tUnitPrice\tQuantity");
-            Console.WriteLine("ano ny tay");
+           
             for (int i = 0; i < iBook; i++)
             {
                 Console.WriteLine(_books[i].Id + "\t" + _books[i].Name + "\t" + _books[i].Author + "\t" + _books[i].Year + "\t" + _books[i].RentalFee + "\t\t" + _books[i].UnitPriceForSale + "\t\t" + _books[i].Quantity);
