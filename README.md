@@ -1,128 +1,120 @@
-**Library Management :  
-**
+# Library Management 📚
 
-**Technology:** C# , visual Studio
+## Table of Contents
+- [Technology](#technology)
+- [Description](#description)
+- [Goal](#goal)
+- [Users](#users)
+- [Employee Functions](#employee-functions)
+  - [1. Sign In](#1-sign-in)
+  - [2. Create Client](#2-create-client)
+  - [3. Display Client Sorted by ID](#3-display-client-sorted-by-id)
+  - [4. Create Books](#4-create-books)
+  - [5. Display Book Sorted by ID](#5-display-book-sorted-by-id)
+  - [6. Rent Book](#6-rent-book)
+  - [7. Return Book](#7-return-book)
+  - [8. Sell Book](#8-sell-book)
+  - [9. Display All Books Rented](#9-display-all-books-rented)
+  - [10. Display Books Purchased](#10-display-books-purchased)
+  - [11. Sign Out](#11-sign-out)
+- [Client Functions](#client-functions)
+  - [1. Sign In](#1-sign-in-1)
+  - [2. View Rented Books](#2-view-rented-books)
+  - [3. View Purchased Books](#3-view-purchased-books)
+- [Contribution](#contribution)
 
-**Description:** Library Management System is a C# application built
-using Visual Studio that helps manage library operations efficiently. It
-includes functionalities for both employees and clients, using
-fundamental programming concepts and struct data structures in C#.
+<h2 id="technology">Technology 💻</h2>
+**Technology:** C#, Visual Studio
 
-**Goal:** This application aims to streamline library management, from
-client registration and book inventory to rental and sales transactions.
-It utilizes C# structures for efficient data handling and ensures a
-smooth user experience for both employees and clients
+<h2 id="description">Description 📝</h2>
+**Description:** Library Management System is a C# application built using Visual Studio that helps manage library operations efficiently. It includes functionalities for both employees and clients, using fundamental programming concepts and struct data structures in C#.
 
-**User:**
+<h2 id="goal">Goal 🎯</h2>
+**Goal:** This application aims to streamline library management, from client registration and book inventory to rental and sales transactions. It utilizes C# structures for efficient data handling and ensures a smooth user experience for both employees and clients.
 
-Client
+## Users
+- **Client**
+- **Employee**
 
-Employee
+<h2 id="employee-functions">Employee Functions 🚀</h2>
 
-**Functions Employee:**
+### 1. Sign In
+The employee can sign in with their credentials:
+- **ID:** 111111
+- **Password:** tester
 
-<img src="./media/image1.png"
-style="width:5.31667in;height:2.81667in" />
+![Employee Sign In](./media/image1.png)
 
-**1-The employee can sign in with his/her credential:**
+After successful login, the options are shown as above.
 
-Id: 111111
+### 2. Create Client
+Employees can add new clients to the library. If successfully created, a "Client added" message appears. If fields are incorrect, an error message is displayed. Client IDs are auto-generated.
 
-Password = “tester”
+![Create Client](./media/image3.png)
 
-<img src="./media/image2.png"
-style="width:6.11389in;height:5.31667in" />
+### 3. Display Client Sorted by ID
+Displays a list of clients sorted by their ID.
 
-After successful login , the options are shown as above
+![Display Client](./media/image4.png)
 
-**1-Create client:**
+### 4. Create Books
+Allows employees to add new books to the library system.
 
-Employees can add new clients to the library. If successfully created, a
-"Client added" message appears. If fields are incorrect, an error
-message is displayed. Client IDs are auto-generated
+![Create Books](./media/image5.png)
 
-<img src="./media/image3.png"
-style="width:4.70903in;height:1.91806in" />
+### 5. Display Book Sorted by ID
+The newly created book is shown at the bottom of the list.
 
-**2-Display Client sorted by Id:**
+![Display Book](./media/image6.png)
 
-<img src="./media/image4.png" style="width:3.08889in;height:1.4875in" />
+### 6. Rent Book
+The employee can rent a book to a client using the client's ID. The client can rent multiple books with their respective book IDs.
 
-**3-Create books:**
+![Rent Book](./media/image7.png)
 
-Allows employees to add new books to the library system
+### 7. Return Book
+The employee will manage the returned book. They enter the number of days the book was rented to calculate the total amount the client needs to pay.
 
-<img src="./media/image5.png"
-style="width:3.16458in;height:1.64583in" />
+![Return Book](./media/image8.png)
 
-**4-Display book sorted by Id**
+### 8. Sell Book
+The employee is able to sell books. After a book is purchased, its quantity decreases in the inventory.
 
-In this example the book we created is shown at the bottom of the list
+![Sell Book](./media/image9.png)
+![Inventory Update](./media/image10.png)
 
-<img src="./media/image6.png"
-style="width:6.49375in;height:2.49375in" />
+### 9. Display All Books Rented
+Displays a list of all books currently rented.
 
-**5- Rent book:**
+![Display All Books Rented](./media/image11.png)
 
-The employee can rent a book to a client, he needs the client id to
-perform the action
+### 10. Display Books Purchased
+Displays a list of books that have been purchased.
 
-The client can rent multiple books with the book Id
+![Display Books Purchased](./media/image12.png)
 
-<img src="./media/image7.png"
-style="width:4.44306in;height:1.94306in" />
+### 11. Sign Out
+The employee can sign out and return to the first welcome page.
 
-**6- Return book:**
+<h2 id="client-functions">Client Functions 🌟</h2>
 
-The employee will get the returned book
+### 1. Sign In
+The client can sign in with their credentials.
 
-He/She will have a list to check on and enter the number of days the
-book was rented to calculate the total the client needs to pay
+![Client Sign In](./media/image13.png)
 
-<img src="./media/image8.png" style="width:6.5in;height:2.58194in" />
+### 2. View Rented Books
+The client can view a list of books they have rented.
 
-**7- Sell Book:**  
-  
-The employee is able to sell books
+![View Rented Books](./media/image14.png)
 
-<img src="./media/image9.png"
-style="width:5.68958in;height:2.23403in" />
+### 3. View Purchased Books
+The client can view a list of books they have purchased.
 
-After the book is purchased, its quantity will decrease in the inventory
-as seen for the book in the first row
+![View Purchased Books](./media/image15.png)
 
-<img src="./media/image10.png"
-style="width:6.49375in;height:2.78472in" />
+<h2 id="contribution">Contribution ✨</h2>
+This project was created with **Thiago Padilha de Hollanda Neto**.
 
-**8- Display all books rented:**
+---
 
-<img src="./media/image11.png"
-style="width:5.50625in;height:1.55069in" />
-
-**9-Display book purchased:**
-
-<img src="./media/image12.png"
-style="width:3.9875in;height:1.81667in" />
-
-**10 – Sign out:**
-
-The employee can sign out and return to the first welcome page
-
-**Functions Clients:**
-
-**1-Sign in:**
-
-> The client can sign in
->
-> <img src="./media/image13.png"
-> style="width:6.49375in;height:3.60139in" />
-
-**2-View Rented book:**
-
-<img src="./media/image14.png"
-style="width:4.27847in;height:0.95556in" />
-
-**3- View Purchased book:**
-
-<img src="./media/image15.png"
-style="width:6.49375in;height:0.82917in" />
