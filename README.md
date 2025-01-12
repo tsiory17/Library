@@ -1,11 +1,11 @@
 # Library Management 📚
 
 ## Table of Contents
-- [Technology](#technology)
-- [Description](#description)
-- [Goal](#goal)
+- [Technology](#technology-)
+- [Description](#description-)
+- [Goal](#goal-)
 - [Users](#users)
-- [Employee Functions](#employee-functions)
+- [Employee Functions](#employee-functions-)
   - [1. Sign In](#1-sign-in)
   - [2. Create Client](#2-create-client)
   - [3. Display Client Sorted by ID](#3-display-client-sorted-by-id)
@@ -17,26 +17,26 @@
   - [9. Display All Books Rented](#9-display-all-books-rented)
   - [10. Display Books Purchased](#10-display-books-purchased)
   - [11. Sign Out](#11-sign-out)
-- [Client Functions](#client-functions)
+- [Client Functions](#client-functions-)
   - [1. Sign In](#1-sign-in-1)
   - [2. View Rented Books](#2-view-rented-books)
   - [3. View Purchased Books](#3-view-purchased-books)
-- [Contribution](#contribution)
+- [Contribution](#contribution-)
 
-<h2 id="technology">Technology 💻</h2>
+## Technology 💻
 **Technology:** C#, Visual Studio
 
-<h2 id="description">Description 📝</h2>
+## Description 📝
 **Description:** Library Management System is a C# application built using Visual Studio that helps manage library operations efficiently. It includes functionalities for both employees and clients, using fundamental programming concepts and struct data structures in C#.
 
-<h2 id="goal">Goal 🎯</h2>
+## Goal 🎯
 **Goal:** This application aims to streamline library management, from client registration and book inventory to rental and sales transactions. It utilizes C# structures for efficient data handling and ensures a smooth user experience for both employees and clients.
 
 ## Users
 - **Client**
 - **Employee**
 
-<h2 id="employee-functions">Employee Functions 🚀</h2>
+## Employee Functions 🚀
 
 ### 1. Sign In
 The employee can sign in with their credentials:
@@ -96,7 +96,7 @@ Displays a list of books that have been purchased.
 ### 11. Sign Out
 The employee can sign out and return to the first welcome page.
 
-<h2 id="client-functions">Client Functions 🌟</h2>
+## Client Functions 🌟
 
 ### 1. Sign In
 The client can sign in with their credentials.
@@ -113,7 +113,7 @@ The client can view a list of books they have purchased.
 
 ![View Purchased Books](./media/image15.png)
 
-<h2 id="contribution">Contribution ✨</h2>
+## Contribution ✨
 This project was created with **Thiago Padilha de Hollanda Neto**.
 
 ---
